@@ -7,7 +7,7 @@
     "test": "jest --silent --noStackTrace --passWithNoTests",
     "test:unit": "npm test -- --watch -c jest-unit.config.js",
     "test:inegration": "npm test -- --watch -c jest-integration.config.js",
-    "test:staged": "npm test -- --findRelatedTests ./src",
+    "test:staged": "npm test -- --findRelatedTests **/src/**/*.spec.js",
     "test:ci": "npm test -- --coverage=true",
     "prepare": "husky install"
   },
