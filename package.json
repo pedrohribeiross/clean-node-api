@@ -33,6 +33,7 @@
     "lint-staged": "^13.1.0"
   },
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "validator": "^13.7.0"
   }
 }
